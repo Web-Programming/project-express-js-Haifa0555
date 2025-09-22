@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop Gaming",
+    "price": 15000000,
+    "description": "Laptop gaming dengan performa tinggi dan GPU RTX 4060."
+  },
+  {
+    "id": 2,
+    "name": "Smartphone Flagship",
+    "price": 12000000,
+    "description": "Smartphone dengan kamera 108MP dan layar AMOLED 120Hz."
+  },
+  {
+    "id": 3,
+    "name": "Headset Wireless",
+    "price": 1500000,
+    "description": "Headset dengan noise cancelling dan baterai tahan 30 jam."
+  },
+  {
+    "id": 4,
+    "name": "Smartwatch",
+    "price": 2500000,
+    "description": "Smartwatch dengan sensor detak jantung dan GPS built-in."
+  },
+  {
+    "id": 5,
+    "name": "Keyboard Mechanical",
+    "price": 1000000,
+    "description": "Keyboard dengan switch blue dan RGB lighting."
+  },
+  {
+    "id": 6,
+    "name": "Monitor 27 Inch",
+    "price": 3000000,
+    "description": "Monitor IPS 144Hz cocok untuk gaming dan editing."
+  },
+  {
+    "id": 7,
+    "name": "Tablet Android",
+    "price": 5000000,
+    "description": "Tablet 10 inch dengan stylus dan multitasking support."
+  },
+  {
+    "id": 8,
+    "name": "Kamera Mirrorless",
+    "price": 8500000,
+    "description": "Kamera mirrorless 24MP dengan kemampuan video 4K."
+  },
+  {
+    "id": 9,
+    "name": "Printer Wireless",
+    "price": 1200000,
+    "description": "Printer inkjet dengan koneksi WiFi dan mobile printing."
+  },
+  {
+    "id": 10,
+    "name": "Router WiFi 6",
+    "price": 900000,
+    "description": "Router dengan kecepatan tinggi dan jangkauan luas."
+  }
+]
