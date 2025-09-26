@@ -11,3 +11,25 @@ router.get("/", function (req, res, next) {
 });
 
 module.exports = router;
+router.get("/search", function (req, res, next) {
+  const query = req.query.q ? req.query.q.toLowerCase() : "";
+
+  const products = [
+    "Laptop Gaming",
+    "Smartphone Flagship",
+    "Headset Wireless",
+    "Smartwatch",
+    "Keyboard Mechanical",
+  ];
+
+  const results = query
+    ? products.filter((product) => product.toLowerCase().includes(query))
+    : products;
+
+  res.render("search-result", { query: req.query.q, results });
+});
+
+const results = products.filter((p) => p.toLowerCase().includes(query));
+
+res.render("search-result", { query: req.query.q, results });
+module.exports = router;
