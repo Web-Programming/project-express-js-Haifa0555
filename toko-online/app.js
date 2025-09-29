@@ -4,14 +4,15 @@ var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
 
-var indexRouter = require("./routes/index");
-var usersRouter = require("./routes/users");
+var indexRouter = require("../toko-online/app_toko_online/routes/index");
+var usersRouter = require("../toko-online/app_toko_online/routes/users");
+var productRouter = require("../toko-online/app_toko_online/routes/product"); //letakkan diatas biar rapi
 var engine = require("ejs-blocks"); // menggunakan ejs block
 
 var app = express();
 
 // view engine setup
-app.set("views", path.join(__dirname, "views"));
+app.set("views", path.join(__dirname, " app_toko_online", "views")); //perbaikan 1
 app.engine("ejs", engine); //daftarkan engine ejs block
 app.set("view engine", "ejs");
 
@@ -28,7 +29,7 @@ app.use(
 
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
-var productRouter = require("./route/product"); //letakkan diatas biar rapi
+var productRouter = require("./app_toko_online/routes/product"); //letakkan diatas biar rapi
 app.use("/product", productRouter);
 
 // catch 404 and forward to error handler

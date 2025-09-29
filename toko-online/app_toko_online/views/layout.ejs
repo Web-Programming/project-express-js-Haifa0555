@@ -10,6 +10,10 @@
   <body>
     <!-- Navbar dapat diambil dari getbootstrap-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <form action="/search" method="GET">
+        <input type="text" name="q" placeholder="Cari produk..." required />
+        <button type="submit">Cari</button>
+      </form>
       <a class="navbar-brand" href="#">Navbar</a>
       <button
         class="navbar-toggler"
