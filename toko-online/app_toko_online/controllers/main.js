@@ -1,12 +1,10 @@
-const products = require("../data/products.json");
-
+var products = require('../../data/products.json');
 
 const index = (req, res) => {
-  res.render("index", {
-    title: "Toko Online Sederhana",
-    products: products,
-    query: ""
-  });
-};
+ 	res.render('index', {
+        title: 'Toko Online Sederhana',
+        products: products
+    });
+}; 
 
-module.exports ={index};
+module.exports = { index }; 
